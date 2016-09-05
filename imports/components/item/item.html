@@ -1,0 +1,14 @@
+<form>
+  <label>
+    Item Name:
+  </label>
+  <input type="text" ng-model="itemListComponent.item.name"/>
+    <button ng-click="itemListComponent.add()">Add Item</button>
+    <image-upload-component files="itemListComponent.item.images"></image-upload-component>
+</form>
+
+<ul>
+  <li ng-repeat="item in itemListComponent.itemHelpers">
+    <p>{{item.name}} <span ng-click="itemListComponent.delete(item._id)">x</span></p>
+  </li>
+</ul>
