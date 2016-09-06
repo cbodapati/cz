@@ -16,5 +16,6 @@
  $ meteor add jalik:ufs-gridfs     // for images support
  $ meteor npm install gm --save
  $ meteor npm install ng-file-upload --save
+ $ meteor remove insecure
 
  */

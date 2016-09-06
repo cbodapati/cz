@@ -1,6 +1,11 @@
 
 /* http://www.menucool.com */
 
+.slider-container
+{
+    margin-top: 20px;
+}
+
 #sliderFrame, #sliderFrame div {
     box-sizing: content-box;
 }
