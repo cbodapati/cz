@@ -2,6 +2,8 @@
  * Created by SrikanthL on 9/1/2016.
  */
 
+// this is a test commit
+
 /*
  $ meteor remove blaze-html-templates
  $ meteor remove ecmascript
