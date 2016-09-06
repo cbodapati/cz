@@ -1,6 +1,8 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
+import './categories.css';
 import template from './categories.html';
+
 
 
 class CategoriesCtrl
