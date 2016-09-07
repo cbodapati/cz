@@ -1,62 +1,54 @@
-.topbar-container
-{
-    width: 50%;
-    margin: auto;
-    height: 100px;
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
 }
 
-.topbar-container .left
+.table
 {
-    width: 24%;
-    float: left;
+	width: 75%;
+	margin: auto;
+
 }
 
-.topbar-container .left .logo img
+.table .r1c1
 {
-    width: 60%;
+	width: 30%;
+	height: 100px;
+	
 }
 
-
-.topbar-container .right
+.table .r1c1 img
 {
-    width: 76%;
-    float: right;   
+	height: 100px;
 }
 
-.topbar-container .right .cart
+.table .r1c2
 {
-	height: 60px;
-	width: 70px;
-	margin-top:10px;
-	padding-right:30px;
-	float:right;	
-}
+	
+	height: 100px;
 
-.topbar-container .right .phone-number 
-{
-    margin-left: 50%;   
-    margin-top: 20px; 
 }
-.topbar-container .right .phone-number .number, .location, .login
+.table .r1c2 img
 {
-    margin-left: 7px;
-}
-
-.topbar-container .right .phone-number img
-{
-    height: 17px;
+	height: 17px;
     width: 17px;
 }
 
-.topbar-container .right .master-search
+.table .r2c1 .master-search
 {
-    height: 30px;
-    width: 70%;
-    background:url(/images/search.png) no-repeat 98% 7px;
-    margin-top : 20px;
-    align-self: center;
-    
+	width: 95%;
+	background:url(/images/search.png) no-repeat 98% 7px;
+	height: 60%;
 }
+
+.table  .cart
+{
+	height: 60px;
+	width: 70px;
+}
+
+
+
 
 .menu-container
 {
