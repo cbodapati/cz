@@ -2,6 +2,7 @@ import angular from 'angular';
 import angularMeteor from 'angular-meteor';
 import template from './header.html';
 import './header.css';
+import '../../materialize/materialize.css';
 
 class HeaderCtrl
 {
@@ -10,7 +11,7 @@ class HeaderCtrl
 
 const name = "headerComponent";
 
-export default angular.module(name,[angularMeteor])
+export default angular.module(name,[angularMeteor, 'accounts.ui'])
         .component(name,
         {
             template,

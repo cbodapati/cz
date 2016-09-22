@@ -9,6 +9,9 @@
 
 <ul>
   <li ng-repeat="item in itemListComponent.itemHelpers">
-    <p>{{item.name}} <span ng-click="itemListComponent.delete(item._id)">x</span></p>
+   
+   <a ui-sref="itemDetails({ itemId: item._id })"> {{item.name }} </a>
+    <span ng-click="itemListComponent.delete(item._id)">x</span>
+
   </li>
 </ul>
