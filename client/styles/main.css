@@ -16,6 +16,7 @@ and open the template in the editor.
                  .btn
                  {
                      height:auto;
+                     padding: 30px 20px 20px 20px;
                  }
                  
                 ::-webkit-input-placeholder {
@@ -35,16 +36,20 @@ and open the template in the editor.
                 }
 
 
-/*.btn {
-      font-size:15px;
-      
-      display:block;
-      left:-60px;
-     height:auto;
-      margin-top:0px;
-      width:100%;
-    }
-*/
+.dropdown-content {
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 300px; /* Changed this to accomodate content width */
+  max-height: auto;
+	margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+}
 div#slider {
   overflow: hidden;
   margin: auto;
@@ -224,4 +229,19 @@ div#slider2 div {
 div#slider2 div img {
   width: 20%;
   float: left;
+}
+
+table, th, td {
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search { 
+  position: absolute;
+  top: 12px;
+  left: 7px;
+  font-size: 15px;
 }
