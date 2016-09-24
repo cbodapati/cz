@@ -1,0 +1,227 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Sep, 2016, 4:35:54 PM
+    Author     : page_gap
+*/
+
+
+ html {
+                    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+                 }
+                 
+                 .btn
+                 {
+                     height:auto;
+                 }
+                 
+                ::-webkit-input-placeholder {
+                   margin-top: -10px
+                }
+
+                :-moz-placeholder { /* Firefox 18- */
+                   text-align: center;  
+                }
+
+                ::-moz-placeholder {  /* Firefox 19+ */
+                   text-align: center;  
+                }
+
+                :-ms-input-placeholder {  
+                   text-align: center; 
+                }
+
+
+/*.btn {
+      font-size:15px;
+      
+      display:block;
+      left:-60px;
+     height:auto;
+      margin-top:0px;
+      width:100%;
+    }
+*/
+div#slider {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+  max-height: auto;
+}
+div#slider div {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  animation: 20s slider infinite;
+}
+div#slider div img {
+  width: 20%;
+  float: left;
+}
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+}
+.custom
+{
+	margin-top:10px;
+}
+.custom img {
+    display: block;
+    margin: 0 auto;
+	width: 70%;
+}
+
+.text
+{
+    font-size: 30px;
+    color:red;        
+}
+
+.center-title
+{
+	text-align: center;
+	font-size: 30px;
+	margin-top:20px;
+}
+
+.hr
+{
+	width: 80%;
+	margin: 20px auto;
+}
+
+div#slider1 {
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
+  max-width: 80%;
+  max-height: auto;
+  margin-bottom: 10px; 
+}
+div#slider1 div {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  animation: 25s slider infinite;
+}
+div#slider1 div img {
+  width: 5%;
+  float: left;
+  padding:2px;
+  box-sizing: border-box;
+}
+@keyframes slider {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+}
+
+.payments
+{
+	position: relative;
+	overflow: hidden;
+  margin: auto;
+  width: 80%;
+  max-width: 80%;
+  margin-bottom: 10px; 
+}
+
+.payments img
+{
+	width: 25%;
+	height: 200px;
+	float: left;
+	padding:5px;
+	box-sizing: border-box;
+}
+
+.parent-div
+{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.parent-div img
+{
+	width: 80%;
+	display: block;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+.brands
+{
+	position: relative;
+	overflow: hidden;
+  margin: auto;
+  width: 80%;
+  max-width: 80%;
+  margin-bottom: 10px; 
+  align-items: center;
+}
+
+.brands img
+{
+	width: 16%;
+	
+	padding:5px;
+	box-sizing: border-box;
+}
+
+
+div#slider2 {
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
+  max-width: 80%;
+  max-height: auto;
+}
+div#slider2 div {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  animation: 20s slider infinite;
+}
+div#slider2 div img {
+  width: 20%;
+  float: left;
+}

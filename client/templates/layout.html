@@ -1,0 +1,23 @@
+<template name="layout">  
+ 	{{> Template.dynamic template=top}}
+	{{> Template.dynamic template=main}}
+</template>
+
+<template name="dashboard_layout">  
+  {{> Template.dynamic template=top}}
+  <div id="main">
+  {{> Template.dynamic template=side}}
+  <div class="dashboard_content offset-s2 s8 offest-s2">
+    <div class="container dashboard_container">
+      {{> Template.dynamic template=main}}
+    </div>
+  </div>
+  </div>
+</template>
+
+<template name="user_form_layout">
+	{{> Template.dynamic template=top}}
+  <div id="accounts_main" class="primary-color">
+    {{> Template.dynamic template=main}}
+  </div>
+</template>
